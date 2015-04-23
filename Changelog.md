@@ -39,6 +39,8 @@ Enhancements:
 * When invalid options are parsed, notify users where they came from
   (e.g. `.rspec` or `~/.rspec` or `ENV['SPEC_OPTS']`) so they can
   easily find the source of the problem. (Myron Marston, #1940)
+* Add shared group backtrace to the output displayed by the built-in
+  formatters for pending examples that have been fixed. (Myron Marston, #1946)
 
 Bug Fixes:
 
